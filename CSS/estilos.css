@@ -42,12 +42,13 @@ nav {
   align-items: center;
 }
 
-footer{
+footer ul {
   display: flex;
+  margin: auto;
   background-color: var(--black-color);
-  padding: var(--space);
+  padding:19px;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 
@@ -148,11 +149,12 @@ footer li a:hover{
 
 .productMentions{
   background-color: var(--white-color);
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
   text-align: center;
   display: flex;
   padding-bottom: 5%;
+  margin: auto;
 }
 
 .properties{
@@ -162,22 +164,26 @@ footer li a:hover{
 .properties .content{
   background-color: var(--white-color);
   padding: 35%;
+  object-fit: cover;
 }
 
 .mentionProperties{
-  /* padding:5px; */
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px;
-  text-align: center;
-  border-image-source:
+  padding:5px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+  margin: auto;
+  /* text-align: center; */
+  object-fit: cover;
+
 }
 
 .mentionProperties .content{
   background-color: var(--white-color);
-  border-image-slice:
+  /* border-image-slice: */
   padding: 5%;
   box-shadow: var(--box);
+  margin: auto;
+
 }
 
 .product{
@@ -200,6 +206,7 @@ footer li a:hover{
 }
 .featureImgContent{
   text-align: center;
+  align-items: center;
 }
 
 .mainButton{
