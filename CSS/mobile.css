@@ -1,15 +1,56 @@
+@media (max-width: 768px) {
+
+  .product {}
+
+  .properties .content {
+    padding: 12%;
+  }
+
+
+}
+
+
+
 @media (max-width: 600px) {
-  .products{
+
+  .images {
+    width: auto;
+  }
+
+  .products {
     display: inherit;
     height: auto;
   }
-  .product{
+
+  .product {
     margin-top: auto;
   }
-  .mainSection{
+
+  .mainSection {
     padding: 4%;
   }
-  .productFeatures, .productMentions{
+
+  .productFeatures {
     display: inherit;
+    margin-top: 666px;
+  }
+
+  .productMentions {
+    display: inherit;
+  }
+
+  .col-4 {
+    padding-right: 70px;
+    margin: auto;
+    padding-left: 40px;
+  }
+
+  .col-8 {
+    height: fit-content;
+    display: flex;
+  }
+
+  .moduloPago {
+    width: 100%;
   }
 }

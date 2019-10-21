@@ -1,124 +1,94 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="CSS/animation.css" />
-    <link rel="stylesheet" href="CSS/normalize.css" />
-    <link rel="stylesheet" href="CSS/estilos.css" />
-    <link rel="stylesheet" href="CSS/mobile.css" />
 
-    <title>BRAND</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-  </head>
-  <body>
-    <!-- Aquí empieza el navbar -->
-    <nav class="fadeInDown">
-      <div class="brand_image">
-        <a href="index.html"><img src="logo.png" alt=""/></a>
-      </div>
-      <div class="nav_options">
-        <ul>
-          <li><a href="#">Producto y Descripción</a></li>
-          <li><a href="#">FAQS</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Aquí termina el navbar -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!--Formulario de Venta -->
-    <br />
-    <br />
-    <br />
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div class="moduloPago">
-            <div class="moduloPagoImages">
-              <img
-                src="images/iphoneBlack.jpg"
-                width="150"
-                height="150"
-                alt=""
-              />
-            </div>
-            <h3>Producto 1</h3>
-            <p>
-              Miles de productos hay en el mercado, pero nada como una caja con
-              gatitos. Miles de productos hay en el mercado, pero nada como una
-              caja con gatitos.
-            </p>
+  <link rel="stylesheet" href="CSS/animation.css" />
+  <link rel="stylesheet" href="CSS/estilos.css" />
+  <link rel="stylesheet" href="CSS/mobile.css" />
+
+  <title>BRAND</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+  <!-- Aquí empieza el navbar -->
+  <nav class="fadeInDown">
+    <div class="brand_image">
+      <a href="index.html"><img src="logo.png" alt="" /></a>
+    </div>
+    <div class="nav_options">
+      <ul>
+        <li><a href="#">Producto y Descripción</a></li>
+        <li><a href="#">FAQS</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Aquí termina el navbar -->
+
+  <!--Formulario de Venta -->
+  <br />
+  <br />
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="moduloPago">
+          <div class="moduloPagoImages">
+            <img src="images/iphoneBlack.jpg" width="150" height="150" alt="" />
           </div>
+          <h3>Producto 1</h3>
+          <p>
+            Miles de productos hay en el mercado, pero nada como una caja con
+            gatitos. Miles de productos hay en el mercado, pero nada como una
+            caja con gatitos.
+          </p>
         </div>
-        <div class="col-8">
-          <div class="moduloPago">
-            <form
-              class=""
-              action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5A2NDMUJC8N2U"
-              method="post"
-            >
-              <label for="name">Nombre</label>
-              <br />
-              <input type="text" name="name" class="data" />
-              <br />
-              <label for="mail">E-mail</label>
-              <br />
-              <input type="text" name="email" class="data" />
-              <br />
-              <label for="telefono">Teléfono</label>
-              <br />
-              <input type="text" name="phone" class="data" />
-              <br />
-              <input
-                type="submit"
-                class="mainButton"
-                name="submit"
-                value="Confirmar Pago"
-              />
-            </form>
-          </div>
+      </div>
+      <div class="col-8">
+        <div class="moduloPago">
+          <form class="" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5A2NDMUJC8N2U"
+            method="post">
+            <label for="name">Nombre</label>
+            <br />
+            <input type="text" name="name" class="data" />
+            <br />
+            <label for="mail">E-mail</label>
+            <br />
+            <input type="text" name="email" class="data" />
+            <br />
+            <label for="telefono">Teléfono</label>
+            <br />
+            <input type="text" name="phone" class="data" />
+            <br />
+            <input type="submit" class="mainButton" name="submit" value="Confirmar Pago" />
+          </form>
         </div>
       </div>
     </div>
-    <br />
-    <br />
-    <br />
-    <!-- Empieza el footer -->
-    <footer>
-      <div class="footerProperties">
-        <ul>
-          <li><a href="#">Términos y Condiciones</a></li>
-          <li><a href="#">contacto@mail.com</a></li>
-        </ul>
-      </div>
-    </footer>
-    <!-- Termina el footer -->
-    <script src="Scripts/script.js"></script>
-  </body>
+  </div>
+  <br />
+  <br />
+  <br />
+  <!-- Empieza el footer -->
+  <footer>
+    <div class="footerProperties">
+      <ul>
+        <li><a href="#">Términos y Condiciones</a></li>
+        <li><a href="#">contacto@mail.com</a></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- Termina el footer -->
+  <script src="Scripts/script.js"></script>
+</body>
+
 </html>
